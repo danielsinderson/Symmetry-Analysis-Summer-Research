@@ -1,0 +1,34 @@
+{
+    "references": [
+        {
+            "format": "book",
+            "title": "Symmetry Analysis of Differential Equations",
+            "subtitle": "An Introduction",
+            "authors": [
+                {
+                    "first": "Daniel",
+                    "last": "Arrigo",
+                    "middle": "J."
+                }
+            ],
+            "publication date": 2015,
+            "publisher": "John Wiley & Sons, Inc",
+            "publisher address": "Hoboken, NJ"
+        },
+        {
+            "format": "book",
+            "title": "Symmetry Methods for Differential Equations",
+            "subtitle": "A Beginner's Guide",
+            "authors": [
+                {
+                    "first": "Peter",
+                    "last": "Hydon",
+                    "middle": "E."
+                }
+            ],
+            "publication date": 2000,
+            "publisher": "Cambridge University Press",
+            "publisher address": "New York, NY"
+        }
+    ]
+}

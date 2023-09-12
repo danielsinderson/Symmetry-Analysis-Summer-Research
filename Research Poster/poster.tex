@@ -1,0 +1,29 @@
+\documentclass[25pt, a0paper, landscape]{tikzposter} % See Section 3
+\title{Comparing Symmetries of Nonlinear PDEs and their Linearizations} \institute{Southern Oregon University} % See Section 4.1
+\author{William Helman \& Daniel Sinderson} \titlegraphic{Logo}
+\usetheme{Basic} % See Section 5
+\begin{document}
+	\maketitle % See Section 4.1
+	\block{Introduction and Background}{
+	\textbf{OBJECTIVE:} Our research objective for this project was to calculate the symmetry groups for the Reduced Gibbons-Tsarev equation and the Born-Infeld equation, and then determine if they were the same as the symmetry groups for their linearizations.
+	\\\\ \textbf{THE EQUATIONS:} Both the Born-Infeld and Reduced Gibbons-Tsarev equations are nonlinear, second-order partial differential equations in two independent variables. The Born-Infeld equation originally popped up in the context of nonlinear electrodynamics and is still found today in string theory in the description of the action of open strings. The Reduced-Gibbons Tsarev equation arose in the context of parametrizations of the Benney moment equations with finitely many (two) dependent variables. It finds use in the study of dispersionless systems.
+	\\\\ \begin{center}\Large{Born-Infeld: $(u_y^2 - 1)u_{xx} - 2u_xu_yu_{xy}+(u_x^2 + 1)u_{yy}=0$ \hspace{5in} Reduced Gibbons-Tsarev: $u_{xx}-u_yu_{xy}+u_xu_{yy}=0$
+	\vspace{1in} \\Linearized Born-Infeld: $u_{xy}+2(\frac{xu_x-yu_y}{x^2-y^2})=0$} \hspace{5in} Linearized Reduced Gibbons-Tsarev: $u_{xy}+\frac{u_x-u_y}{x-y}=0$ \end{center}
+	} % See Section 4.2
+	\begin{columns} % See Section 4.4
+		\column{0.25} % See Section 4.4
+		\block{Methods}{
+			In order to accomplish our objective we made use of both mathematical and computational tools. 
+			\\\\ \textbf{Mathematical Tools}\\ On the mathematical side, the first step in the process is to construct Lie's Invariance Condition for the equation.
+			\\\\ \textbf{Computational Tools}\\ On the computational side, we used the computer algebra system Maple. This allowed us to do the heavy number-crunching and symbol manipulation required by the mathematical tools we used in minutes rather than days.
+			\\\\ \textbf{Approach}
+			\begin{enumerate}
+				\item Define the total derivative operator in Maple.
+			\end{enumerate}				
+		}
+		\column{0.5}
+		\block{Conclusion}{Conclusion}
+		\column{0.25}
+		\block{Results}{Results}
+	\end{columns}
+\end{document}
