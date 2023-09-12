@@ -1,6 +1,7 @@
 \documentclass[25pt, a0paper, landscape]{tikzposter} % See Section 3
 \title{Comparing Symmetries of Nonlinear PDEs and their Linearizations} \institute{Southern Oregon University} % See Section 4.1
-\author{William Helman \& Daniel Sinderson} \titlegraphic{Logo}
+\author{William Helman \& Daniel Sinderson} 
+%\titlegraphic{Logo}
 \usetheme{Basic} % See Section 5
 \begin{document}
 	\maketitle % See Section 4.1
@@ -13,12 +14,29 @@
 	\begin{columns} % See Section 4.4
 		\column{0.25} % See Section 4.4
 		\block{Methods}{
-			In order to accomplish our objective we made use of both mathematical and computational tools. 
-			\\\\ \textbf{Mathematical Tools}\\ On the mathematical side, the first step in the process is to construct Lie's Invariance Condition for the equation.
-			\\\\ \textbf{Computational Tools}\\ On the computational side, we used the computer algebra system Maple. This allowed us to do the heavy number-crunching and symbol manipulation required by the mathematical tools we used in minutes rather than days.
-			\\\\ \textbf{Approach}
+			\textbf{Mathematical Tools}
+			\begin{itemize}
+				\item The total derivative operator
+				\item The prolongated infinitesimal operator
+				\item Lie's Invariance Condition
+			\end{itemize}
+			\vspace{0.25in}			 
+			\textbf{Computational Tools}
+			\begin{itemize}
+				\item Maple
+			\end{itemize}
+			\vspace{0.25in}			
+			\textbf{Approach}
 			\begin{enumerate}
 				\item Define the total derivative operator in Maple.
+				\item Define the prolongated infinitesimal operator for second-order differential equations in two independent variables.
+				\item Calculate Lie's Invariance Condition for the equation.
+				\item Collect like terms and separate into a system of determining equations for your symmetry generating infinitesimals.
+				\item Solve the system of determining equations.
+				\item Use the resulting infinitesimals to find the number of symmetries that the equation has by counting the number of arbitrary constants.
+				\item * Calculate vector fields by one-hot encoding the constants.
+				\item * Lie Bracket the resulting vector fields together.
+				\item * Characterize the resulting symmetry group.
 			\end{enumerate}				
 		}
 		\column{0.5}
