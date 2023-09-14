@@ -29,6 +29,21 @@
             "publication date": 2000,
             "publisher": "Cambridge University Press",
             "publisher address": "New York, NY"
+        },
+        {
+            "format": "book",
+            "title": "Applications of Lie Groups to Differential Equations",
+            "subtitle": "",
+            "authors": [
+                {
+                    "first": "Peter",
+                    "last": "Olver",
+                    "middle": "J."
+                }
+            ],
+            "publication date": 1980,
+            "publisher": "Springer",
+            "publisher address": "New York, NY"
         }
     ]
 }

@@ -19,12 +19,16 @@
 				\item The total derivative operator
 				\item The prolongated infinitesimal operator
 				\item Lie's Invariance Condition
+				\item Symmetry Groups
+				\item Lie Bracket
 			\end{itemize}
 			\vspace{0.25in}			 
 			\textbf{Computational Tools}
 			\begin{itemize}
 				\item Maple (computer algebra software)
 				\item DEtools (Maple package)
+				\item DifferentialGeometry (Maple package)
+				\item LieAlgebras (Maple package)
 			\end{itemize}
 			\vspace{0.25in}			
 			\textbf{Approach}
@@ -41,7 +45,31 @@
 			\end{enumerate}				
 		}
 		\column{0.5}
-		\block{Results}{Results}
+		\block{Results}{
+			\innerblock{\Large{Reduced Gibbons-Tsarev}}{
+			$$X(x,y,u) = -2c_5y + (-c_2 + 2c_4)x + c_7$$
+			$$Y(x,y,u) = -\frac{c_1x}{2} + c_4y + c_5u + c_6$$
+			$$U(x,y,u) = c_1y + c_2u + c_3$$}
+			\vspace{0.5in}			
+			\innerblock{\Large{Linearized Reduced Gibbons-Tsarev}}{
+			$$X(x,y,u) = c_1x^2 + c_3x + c_4$$
+			$$Y(x,y,u) = c_1y^2 + c_3y + c_4$$
+			$$U(x,y,u) = \frac{(-x+y)(\frac{d}{dx}f(x)}{2} + \frac{(-x+y)(\frac{d}{dy}g(y)}{2} + f(x) - g(y) + (c_1x + c_1y + c_2)u$$}
+			\vspace{0.5in}				
+			\innerblock{\Large{Born-Infeld}}{
+			$$X(x,y,u) = c_1x + c_2u + c_3y + c_4$$
+			$$Y(x,y,u) = c_1y + c_3x + c_5u + c_6$$
+			$$U(x,y,u) = c_1u - c_2x + c_5y + c_7$$
+			}
+			\vspace{0.5in}	
+			\innerblock{\Large{Linearized Born-Infeld}}{
+			$$X(x,y,u) = \frac{1}{2}c_1x^2 + c_4x - \frac{1}{2}c_3$$
+			$$Y(x,y,u) = \frac{1}{2}c_1y^2 + c_4y - \frac{1}{2}c_3$$
+			$$U(x,y,u) = \frac{1}{2(x + y)}((x-y)(\frac{d}{dx}f(x)) + (-x + y)(\frac{d}{dy}g(y)) - 2f(x) - 2g(y) + 2u(c_1y+c_2)x + 2c_2uy + 2c_3u)$$
+			}
+			
+		}
+		
 		\column{0.25}
 		\block{Conclusion}{Conclusion}
 		\block{References}{References}
