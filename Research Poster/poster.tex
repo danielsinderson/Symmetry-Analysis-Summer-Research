@@ -1,36 +1,35 @@
 \documentclass[25pt, a0paper, landscape]{tikzposter} % See Section 3
-\title{Comparing Symmetries of Nonlinear PDEs and their Linearizations} \institute{Southern Oregon University} % See Section 4.1
+
+\usepackage{multicol}
+\setlength{\columnsep}{0.5in}
+
+\usepackage{amsmath}
+
+\usepackage{tikz}
+\usetikzlibrary{cd}
+
+
+\title{Comparing Symmetries of Nonlinear PDEs and their Linearizations} \institute{Southern Oregon University}
 \author{William Helman \& Daniel Sinderson} 
-%\titlegraphic{Logo}
+
 \usetheme{Basic} % See Section 5
+\colorlet{backgroundcolor}{white}
+\colorlet{framecolor}{black}
+\colorlet{innerblocktitlebgcolor}{white}
+\colorlet{innerblocktitlefgcolor}{black}
+
+
 \begin{document}
 	\maketitle % See Section 4.1
 	\block{Introduction and Background}{
-	\textbf{OBJECTIVE:} Our research objective for this project was to calculate the symmetry groups for the Reduced Gibbons-Tsarev equation and the Born-Infeld equation, and then determine if they were the same as the symmetry groups for their linearizations.
-	\\\\ \textbf{THE EQUATIONS:} Both the Born-Infeld and Reduced Gibbons-Tsarev equations are nonlinear, second-order partial differential equations in two independent variables. The Born-Infeld equation originally popped up in the context of nonlinear electrodynamics and is still found today in string theory in the description of the action of open strings. The Reduced-Gibbons Tsarev equation arose in the context of parametrizations of the Benney moment equations with finitely many (two) dependent variables. It finds use in the study of dispersionless systems.
-	\\\\ \begin{center}\Large{Born-Infeld: $(u_y^2 - 1)u_{xx} - 2u_xu_yu_{xy}+(u_x^2 + 1)u_{yy}=0$ \hspace{5in} Reduced Gibbons-Tsarev: $u_{xx}-u_yu_{xy}+u_xu_{yy}=0$
+	\textbf{OBJECTIVE:} Our research objective for this project was to calculate the symmetry groups for the Reduced Gibbons-Tsarev equation and the Born-Infeld equation, and then compare them to the symmetry groups for their linearizations.
+	\\\\ \textbf{THE EQUATIONS:} Both the Born-Infeld and Reduced Gibbons-Tsarev equations are nonlinear, second-order partial differential equations in two independent variables. The Born-Infeld equation originally appeared in the context of nonlinear electrodynamics and is still found today in string theory in the description of the action of open strings. The Reduced-Gibbons Tsarev equation arose in the context of parametrizations of the Benney moment equations with finitely many (two) dependent variables. It finds use in the study of dispersionless systems.
+	\\ \begin{center}\Large{Born-Infeld: $(u_y^2 - 1)u_{xx} - 2u_xu_yu_{xy}+(u_x^2 + 1)u_{yy}=0$ \hspace{5in} Reduced Gibbons-Tsarev: $u_{xx}-u_yu_{xy}+u_xu_{yy}=0$
 	\vspace{1in} \\Linearized Born-Infeld: $u_{xy}+2(\frac{xu_x-yu_y}{x^2-y^2})=0$} \hspace{5in} Linearized Reduced Gibbons-Tsarev: $u_{xy}+\frac{u_x-u_y}{x-y}=0$ \end{center}
 	} % See Section 4.2
 	\begin{columns} % See Section 4.4
 		\column{0.25} % See Section 4.4
-		\block{Methods}{
-			\textbf{Mathematical Tools}
-			\begin{itemize}
-				\item The total derivative operator
-				\item The prolongated infinitesimal operator
-				\item Lie's Invariance Condition
-				\item Symmetry Groups
-				\item Lie Bracket
-			\end{itemize}
-			\vspace{0.25in}			 
-			\textbf{Computational Tools}
-			\begin{itemize}
-				\item Maple (computer algebra software)
-				\item DEtools (Maple package)
-				\item DifferentialGeometry (Maple package)
-				\item LieAlgebras (Maple package)
-			\end{itemize}
-			\vspace{0.25in}			
+		\block{Methods}{	
 			\textbf{Approach}
 			\begin{enumerate}
 				\item Define the total derivative operator in Maple.
@@ -44,17 +43,32 @@
 				\item * Characterize the resulting symmetry group.
 			\end{enumerate}				
 		}
+		
+		\block{Diagram}{
+
+		}		
+		
 		\column{0.5}
-		\block{Results}{
+		\begin{subcolumns}
+		\subcolumn{0.5}
+		\block{Classical Symmetries}{
 			\innerblock{\Large{Reduced Gibbons-Tsarev}}{
 			$$X(x,y,u) = -2c_5y + (-c_2 + 2c_4)x + c_7$$
 			$$Y(x,y,u) = -\frac{c_1x}{2} + c_4y + c_5u + c_6$$
-			$$U(x,y,u) = c_1y + c_2u + c_3$$}
+			$$U(x,y,u) = c_1y + c_2u + c_3$$		
+			}
 			\vspace{0.5in}			
 			\innerblock{\Large{Linearized Reduced Gibbons-Tsarev}}{
 			$$X(x,y,u) = c_1x^2 + c_3x + c_4$$
 			$$Y(x,y,u) = c_1y^2 + c_3y + c_4$$
-			$$U(x,y,u) = \frac{(-x+y)(\frac{d}{dx}f(x)}{2} + \frac{(-x+y)(\frac{d}{dy}g(y)}{2} + f(x) - g(y) + (c_1x + c_1y + c_2)u$$}
+			\begin{equation}
+			\begin{split}
+			U(x,y,u)  & = \frac{(-x+y)(\frac{d}{dx}f(x)}{2} + \frac{(-x+y)(\frac{d}{dy}g(y)}{2} \\ 
+			& + f(x) - g(y) + (c_1x + c_1y + c_2)u
+			\end{split}
+			\end{equation}
+			
+			}
 			\vspace{0.5in}				
 			\innerblock{\Large{Born-Infeld}}{
 			$$X(x,y,u) = c_1x + c_2u + c_3y + c_4$$
@@ -65,10 +79,36 @@
 			\innerblock{\Large{Linearized Born-Infeld}}{
 			$$X(x,y,u) = \frac{1}{2}c_1x^2 + c_4x - \frac{1}{2}c_3$$
 			$$Y(x,y,u) = \frac{1}{2}c_1y^2 + c_4y - \frac{1}{2}c_3$$
-			$$U(x,y,u) = \frac{1}{2(x + y)}((x-y)(\frac{d}{dx}f(x)) + (-x + y)(\frac{d}{dy}g(y)) - 2f(x) - 2g(y) + 2u(c_1y+c_2)x + 2c_2uy + 2c_3u)$$
+			\begin{equation}
+			\begin{split}
+			U(x,y,u) & = \frac{1}{2(x + y)}((x-y)(\frac{d}{dx}f(x)) \\ 
+			& + (-x + y)(\frac{d}{dy}g(y)) - 2f(x) - 2g(y)\\ 
+			& + 2u(c_1y+c_2)x + 2c_2uy + 2c_3u)
+			\end{split}
+			\end{equation}
+			
+			}
+			}
+			\subcolumn{0.5}
+			\block{Nonclassical Symmetries}{
+			\innerblock{\Large{Reduced Gibbons-Tsarev}}{
+
+			}
+			\vspace{0.5in}			
+			\innerblock{\Large{Linearized Reduced Gibbons-Tsarev}}{
+
+			}
+			\vspace{0.5in}				
+			\innerblock{\Large{Born-Infeld}}{
+
+			}
+			\vspace{0.5in}	
+			\innerblock{\Large{Linearized Born-Infeld}}{
+			
 			}
 			
 		}
+		\end{subcolumns}
 		
 		\column{0.25}
 		\block{Conclusion}{Conclusion}
