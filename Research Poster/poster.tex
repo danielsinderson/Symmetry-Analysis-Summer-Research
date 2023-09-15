@@ -1,18 +1,12 @@
-\documentclass[25pt, a0paper, landscape]{tikzposter} % See Section 3
-
-\usepackage{multicol}
-\setlength{\columnsep}{0.5in}
+\documentclass[25pt, a0paper, landscape]{tikzposter}
 
 \usepackage{amsmath}
-
-\usepackage{tikz}
-\usetikzlibrary{cd}
 
 
 \title{Comparing Symmetries of Nonlinear PDEs and their Linearizations} \institute{Southern Oregon University}
 \author{William Helman \& Daniel Sinderson} 
 
-\usetheme{Basic} % See Section 5
+\usetheme{Basic}
 \colorlet{backgroundcolor}{white}
 \colorlet{framecolor}{black}
 \colorlet{innerblocktitlebgcolor}{white}
@@ -25,10 +19,10 @@
 	\textbf{OBJECTIVE:} Our research objective for this project was to calculate the symmetry groups for the Reduced Gibbons-Tsarev equation and the Born-Infeld equation, and then compare them to the symmetry groups for their linearizations.
 	\\\\ \textbf{THE EQUATIONS:} Both the Born-Infeld and Reduced Gibbons-Tsarev equations are nonlinear, second-order partial differential equations in two independent variables. The Born-Infeld equation originally appeared in the context of nonlinear electrodynamics and is still found today in string theory in the description of the action of open strings. The Reduced-Gibbons Tsarev equation arose in the context of parametrizations of the Benney moment equations with finitely many (two) dependent variables. It finds use in the study of dispersionless systems.
 	\\ \begin{center}\Large{Born-Infeld: $(u_y^2 - 1)u_{xx} - 2u_xu_yu_{xy}+(u_x^2 + 1)u_{yy}=0$ \hspace{5in} Reduced Gibbons-Tsarev: $u_{xx}-u_yu_{xy}+u_xu_{yy}=0$
-	\vspace{1in} \\Linearized Born-Infeld: $u_{xy}+2(\frac{xu_x-yu_y}{x^2-y^2})=0$} \hspace{5in} Linearized Reduced Gibbons-Tsarev: $u_{xy}+\frac{u_x-u_y}{x-y}=0$ \end{center}
-	} % See Section 4.2
-	\begin{columns} % See Section 4.4
-		\column{0.25} % See Section 4.4
+	\vspace{0.5in} \\Linearized Born-Infeld: $u_{xy}+2(\frac{xu_x-yu_y}{x^2-y^2})=0$} \hspace{5in} Linearized Reduced Gibbons-Tsarev: $u_{xy}+\frac{u_x-u_y}{x-y}=0$ \end{center}
+	}
+	\begin{columns}
+		\column{0.25}
 		\block{Methods}{	
 			\textbf{Approach}
 			\begin{enumerate}
@@ -46,7 +40,7 @@
 		
 		\block{Diagram}{
 
-		}		
+		}	
 		
 		\column{0.5}
 		\begin{subcolumns}
