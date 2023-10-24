@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1698179401 "/home/drs/Documents/School/2023 Summer Research/Symmetry-Analysis-Summer-Research/Presentation/presentation.tex" "presentation.pdf" "presentation" 1698179403
+["pdflatex"] 1698180236 "/home/drs/Documents/School/2023 Summer Research/Symmetry-Analysis-Summer-Research/Presentation/presentation.tex" "presentation.pdf" "presentation" 1698180237
   "/etc/texmf/web2c/texmf.cnf" 1690138198 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/drs/Documents/School/2023 Summer Research/Symmetry-Analysis-Summer-Research/Presentation/presentation.tex" 1698179396 369 897fe0e671e462cc390a6f5a23dcb14e ""
+  "/home/drs/Documents/School/2023 Summer Research/Symmetry-Analysis-Summer-Research/Presentation/presentation.tex" 1698180235 410 bbfdde2c3e979253a170d5c14eca6d71 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1136768653 1316 b636689f1933f24d1294acdf6041daaa ""
@@ -169,10 +169,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1690138246 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1690138325 2800704 dd5145fa7a99607d1e5660dcfc9667f4 ""
-  "presentation.aux" 1698179402 1243 17d2f1ea53667060164dadf89c75f7b3 "pdflatex"
-  "presentation.nav" 1698179402 395 640a03f4d3f0f705896c1d8375ddfa75 "pdflatex"
-  "presentation.out" 1698179402 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "presentation.tex" 1698179396 369 897fe0e671e462cc390a6f5a23dcb14e ""
+  "presentation.aux" 1698180237 1243 17d2f1ea53667060164dadf89c75f7b3 "pdflatex"
+  "presentation.nav" 1698180237 395 640a03f4d3f0f705896c1d8375ddfa75 "pdflatex"
+  "presentation.out" 1698180237 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "presentation.tex" 1698180235 410 bbfdde2c3e979253a170d5c14eca6d71 ""
   (generated)
   "presentation.aux"
   "presentation.log"
