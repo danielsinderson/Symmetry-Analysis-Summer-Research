@@ -1,5 +1,9 @@
 \documentclass{beamer}
 
+\usepackage{amsmath}
+
+\usetheme{Warsaw}
+
 \mode<presentation>
 
 %Information to be included in the title page:
@@ -12,9 +16,112 @@
 
 \frame{\titlepage}
 
+
+
 \begin{frame}
-\frametitle{Introduction}
-aorinodhafp
+    \frametitle{Introduction}
+    Our research objective for this project was to calculate the classical and nonclassical symmetry groups for the reduced Gibbons-Tsarev equation and the Born-Infeld equation and compare them.
 \end{frame}
+
+
+
+\begin{frame}
+    \frametitle{What is a symmetry?}
+    \framesubtitle{Definitions}
+    \begin{definition}<1->
+        A symmetry is a transformation that leaves an object invariant.
+    \end{definition}
+
+    \begin{definition}<2->
+        A symmetry is a change that doesn't change anything.
+    \end{definition}
+    
+\end{frame}
+
+\begin{frame}
+    \frametitle{What is a symmetry?}
+    \framesubtitle{A Transformation that's not a Symmetry}
+    \begin{example}[1]<1->
+        Let's take the equation $x-y=0$.
+        \\In slope-intercept form, this is the line $y=x$.
+        \begin{itemize}
+            \item For our first transformation, let's define new variables\\ $\bar{x}=x+1$ and $\bar{y}=y$.
+            \item Now we rewrite our equation using these new variables. \begin{equation*}
+                \begin{aligned}
+                    \bar{x}-\bar{y} &= 0 & \text{by definition} \\
+                    x+1-y &= 0 & \text{by substitution} \\
+                    y &= x+1 & \text{by rewriting in slope-intercept form}
+                \end{aligned}
+            \end{equation*}
+            \item As we can see, this is NOT a transformation: \\ $x-y+1\ne x-y$
+        \end{itemize}        
+    \end{example}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{What is a symmetry?}
+    \framesubtitle{A Transformation that is a Symmetry}
+    \begin{example}[2]<1->
+        \begin{itemize}
+            \item Let's define some new variables again\\ $\bar{x}=x+1$ and $\bar{y}=y+1$.
+            \item Now we rewrite our equation using these new variables. \begin{equation*}
+                \begin{aligned}
+                    \bar{x}-\bar{y} &= 0 & \text{by definition} \\
+                    (x+1)-(y+1) &= 0 & \text{by substitution} \\
+                    (x-y)+(1-1) &= 0 & \text{by algebra} \\
+                    x-y &= 0 & \text{by algebra} \\
+                    y &= x & \text{by rewriting in slope-intercept form}
+                \end{aligned}
+            \end{equation*}
+            \item As we can see, this IS a transformation: \\ $x-y = x-y$
+        \end{itemize}        
+    \end{example}
+\end{frame}
+
+
+
+
+\begin{frame}
+    \frametitle{What is a Differential Equation?}
+
+\end{frame}
+
+
+
+\begin{frame}
+    \frametitle{The History of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
+
+\end{frame}
+
+
+
+\begin{frame}
+    \frametitle{The Classical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
+
+\end{frame}
+
+
+
+\begin{frame}
+    \frametitle{The Nonclassical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
+
+\end{frame}
+
+
+
+\begin{frame}
+    \frametitle{Future Work: Does Integrability Imply Equivalence of Classical and Nonclassical Symmetries?}
+
+\end{frame}
+
+
+
+\begin{frame}
+    \frametitle{Future Work: Does Equivalence of Classical and Nonclassical Symmetries Imply Integrability?}
+
+\end{frame}
+
+
 
 \end{document}
