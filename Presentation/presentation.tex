@@ -2,7 +2,7 @@
 
 \usepackage{amsmath}
 
-\usetheme{Warsaw}
+%\usetheme{}
 
 \mode<presentation>
 
@@ -27,23 +27,27 @@
 
 \begin{frame}
     \frametitle{What is a symmetry?}
-    \framesubtitle{Definitions}
     \begin{definition}<1->
         A symmetry is a transformation that leaves an object invariant.
     \end{definition}
-
+    \vspace*{0.5in}
     \begin{definition}<2->
         A symmetry is a change that doesn't change anything.
     \end{definition}
-    
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{What is a symetry?}
+    Let's see this in action using the simple linear equation $x-y=0$.\\
+    \begin{center}
+        \includegraphics[width=9cm]{y=x.png}
+    \end{center}
 \end{frame}
 
 \begin{frame}
     \frametitle{What is a symmetry?}
-    \framesubtitle{A Transformation that's not a Symmetry}
-    \begin{example}[1]<1->
-        Let's take the equation $x-y=0$.
-        \\In slope-intercept form, this is the line $y=x$.
+    \begin{example}[A Non-Example]
         \begin{itemize}
             \item For our first transformation, let's define new variables\\ $\bar{x}=x+1$ and $\bar{y}=y$.
             \item Now we rewrite our equation using these new variables. \begin{equation*}
@@ -53,7 +57,7 @@
                     y &= x+1 & \text{by rewriting in slope-intercept form}
                 \end{aligned}
             \end{equation*}
-            \item As we can see, this is NOT a transformation: \\ $x-y+1\ne x-y$
+            \item This is transformation is not a symmetry: \\ $x-y+1\ne x-y$
         \end{itemize}        
     \end{example}
 \end{frame}
@@ -74,11 +78,34 @@
                     y &= x & \text{by rewriting in slope-intercept form}
                 \end{aligned}
             \end{equation*}
-            \item As we can see, this IS a transformation: \\ $x-y = x-y$
+            \item This transformation is a symmetry: \\ $x-y = x-y$
         \end{itemize}        
     \end{example}
 \end{frame}
 
+
+\begin{frame}
+    \frametitle{What is a symetry?}
+    The graphs of our three equations.\\
+    \begin{center}
+        \includegraphics[width=9cm]{y=x+1.png}
+    \end{center}
+\end{frame}
+
+
+
+\begin{frame}
+    \frametitle{What is a symmetry?}
+    \begin{Large}
+        Who cares?
+    \end{Large}
+    \vspace*{0.25in}
+    \begin{itemize}
+        \item Symmetries help us understand and solve equations that we wouldn't normally be able to.\pause
+        \item Symmetries encode physically meaningful aspects of equations, like conservation laws in physics.\pause
+        \item They're cool.
+    \end{itemize}
+\end{frame}
 
 
 

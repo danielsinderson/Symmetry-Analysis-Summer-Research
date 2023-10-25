@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  24 OCT 2023 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  25 OCT 2023 07:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -512,7 +512,7 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen282
 \beamer@dimb=\dimen283
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeWarsaw.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeshadow.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count329
 \l__pdf_internal_box=\box75
@@ -669,106 +669,63 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./presentation.nav)
-Overfull \hbox (91.70204pt too wide) in paragraph at lines 15--15
- [][][][] []  
- []
+) (./presentation.nav) [1
 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
+] [3
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
-
-[2
+] [4
 
 ]
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
-
-[3
-
-]
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
-
-[4
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 59.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
+<y=x.png, id=119, 803.0pt x 602.25pt>
+File: y=x.png Graphic file (type png)
+<use y=x.png>
+Package pdftex.def Info: y=x.png  used on input line 46.
+(pdftex.def)             Requested size: 256.0748pt x 192.06229pt.
+ [5
 
-[5
+ <./y=x.png>] [6
 
-]
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
-
-[6
+] [7
 
 ]
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
+<y=x+1.png, id=201, 803.0pt x 602.25pt>
+File: y=x+1.png Graphic file (type png)
+<use y=x+1.png>
+Package pdftex.def Info: y=x+1.png  used on input line 93.
+(pdftex.def)             Requested size: 256.0748pt x 192.06229pt.
+ [8
 
-[7
+ <./y=x+1.png>] [9
 
-]
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
+] [10
 
-[8
+] [11
 
-]
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
+] [12
 
-[9
+] [13
 
-]
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
+] [14
 
-[10
+] [15
 
-]
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
+] [16
 
-[11
-
-]
-Overfull \hbox (91.70204pt too wide) has occurred while \output is active
- [][][][] []  
- []
-
-[12
+] [17
 
 ]
 \tf@nav=\write6
@@ -785,18 +742,18 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21874 strings out of 478287
- 431010 string characters out of 5849289
- 686408 words of memory out of 5000000
- 39592 multiletter control sequences out of 15000+600000
- 476315 words of font info for 53 fonts, out of 8000000 for 9000
+ 21547 strings out of 478287
+ 418212 string characters out of 5849289
+ 676383 words of memory out of 5000000
+ 39270 multiletter control sequences out of 15000+600000
+ 476622 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,489b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presentation.pdf (12 pages, 101449 bytes).
+ 128i,14n,122p,489b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on presentation.pdf (17 pages, 145084 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 377 compressed objects within 4 object streams
- 25 named destinations out of 1000 (max. 500000)
- 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 493 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
