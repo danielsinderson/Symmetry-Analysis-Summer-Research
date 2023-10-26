@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  25 OCT 2023 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  25 OCT 2023 19:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -671,47 +671,47 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./presentation.nav) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./presentation.toc) [2
 
 ] [3
 
 ] [4
 
+] [5
+
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 46.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
-<y=x.png, id=119, 803.0pt x 602.25pt>
+<y=x.png, id=205, 803.0pt x 602.25pt>
 File: y=x.png Graphic file (type png)
 <use y=x.png>
-Package pdftex.def Info: y=x.png  used on input line 46.
+Package pdftex.def Info: y=x.png  used on input line 63.
 (pdftex.def)             Requested size: 256.0748pt x 192.06229pt.
- [5
+ [6
 
- <./y=x.png>] [6
+ <./y=x.png>] [7
 
-] [7
+] [8
 
 ]
-<y=x+1.png, id=201, 803.0pt x 602.25pt>
+<y=x+1.png, id=287, 803.0pt x 602.25pt>
 File: y=x+1.png Graphic file (type png)
 <use y=x+1.png>
-Package pdftex.def Info: y=x+1.png  used on input line 93.
+Package pdftex.def Info: y=x+1.png  used on input line 110.
 (pdftex.def)             Requested size: 256.0748pt x 192.06229pt.
- [8
+ [9
 
- <./y=x+1.png>] [9
-
-] [10
+ <./y=x+1.png>] [10
 
 ] [11
 
@@ -731,6 +731,8 @@ Package pdftex.def Info: y=x+1.png  used on input line 93.
 
 ] [19
 
+] [20
+
 ]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
@@ -743,21 +745,21 @@ Package pdftex.def Info: y=x+1.png  used on input line 93.
 
  (./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 69B171FEE66796EC6A45D3706DA64423;1670.
  ) 
 Here is how much of TeX's memory you used:
- 21570 strings out of 478287
- 418528 string characters out of 5849289
- 676384 words of memory out of 5000000
- 39287 multiletter control sequences out of 15000+600000
+ 21650 strings out of 478287
+ 419805 string characters out of 5849289
+ 676399 words of memory out of 5000000
+ 39351 multiletter control sequences out of 15000+600000
  480726 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,122p,489b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,14n,122p,489b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (19 pages, 174793 bytes).
+Output written on presentation.pdf (20 pages, 178723 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 508 compressed objects within 6 object streams
- 39 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 651 PDF objects out of 1000 (max. 8388607)
+ 595 compressed objects within 6 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
