@@ -7,7 +7,7 @@
 \mode<presentation>
 
 %Information to be included in the title page:
-\title{Comparing the Classical and Nonclassical Symmetries of Nonlinear Partial Differential Equations}
+\title{Comparing Classical and Nonclassical Symmetries of Nonlinear Partial Differential Equations}
 \author{William Helman and Daniel Sinderson}
 \institute{Southern Oregon University}
 \date{2023}
@@ -43,7 +43,7 @@
 
 
 \begin{frame}
-    \frametitle{What is a symmetry?}
+    \frametitle{What is a Symmetry?}
     \begin{definition}<1->
         A symmetry is a transformation that leaves an object invariant.
     \end{definition}
@@ -55,7 +55,7 @@
 
 
 \begin{frame}
-    \frametitle{What is a symetry?}
+    \frametitle{What is a Symmetry?}
     Let's see this in action using the simple linear equation $x-y=0$.\\
     \begin{center}
         \includegraphics[width=9cm]{y=x.png}
@@ -63,7 +63,7 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{What is a symmetry?}
+    \frametitle{What is a Symmetry?}
     \begin{example}[A Non-Example]
         \begin{itemize}
             \item For our first transformation, let's define new variables\\ $\bar{x}=x+1$ and $\bar{y}=y$.
@@ -74,14 +74,14 @@
                     y &= x+1 & \text{by rewriting in slope-intercept form}
                 \end{aligned}
             \end{equation*}
-            \item This is transformation is not a symmetry: \\ $x-y+1\ne x-y$
+            \item This transformation is not a symmetry: \\ $x-y+1\ne x-y$
         \end{itemize}        
     \end{example}
 \end{frame}
 
 
 \begin{frame}
-    \frametitle{What is a symmetry?}
+    \frametitle{What is a Symmetry?}
     \framesubtitle{A Transformation that is a Symmetry}
     \begin{example}[2]<1->
         \begin{itemize}
@@ -102,7 +102,7 @@
 
 
 \begin{frame}
-    \frametitle{What is a symetry?}
+    \frametitle{What is a Symmetry?}
     The graphs of our three equations.\\
     \begin{center}
         \includegraphics[width=9cm]{y=x+1.png}
@@ -112,7 +112,7 @@
 
 
 \begin{frame}
-    \frametitle{What is a symmetry?}
+    \frametitle{What is a Symmetry?}
     \begin{Large}
         Who cares?
     \end{Large}
@@ -120,7 +120,6 @@
     \begin{itemize}
         \item Symmetries help us understand and solve equations that we wouldn't normally be able to.\pause
         \item Symmetries encode physically meaningful aspects of equations, like conservation laws in physics.\pause
-        \item They're cool.
     \end{itemize}
 \end{frame}
 
@@ -141,13 +140,26 @@
 
 \begin{frame}
     \frametitle{What is a Differential Equation?}
-    As an example, we'll use the equation for a spring.\\
+    As an example, we'll use the equation for an undamped spring.\\
     \vspace*{0.125in}
     \begin{Large}
-        $$m\ddot{x}+\gamma\dot{x}+\kappa{x}=0$$
+        $$m\ddot{x}=-\kappa{x}$$
     \end{Large}
     \vspace*{0.25in}
-    \\Here $m$ is the mass, $\ddot{x}$ is the acceleration, $\gamma$ is the damping constant (friction), $\dot{x}$ is the velocity, $\kappa$ is the spring constant, and $x$ is the position.
+    \begin{itemize}
+        \item Here $m$ is the mass, $\ddot{x}$ is the acceleration, $\kappa$ is the spring constant, and $x$ is the position.
+        \item If we set both $m$ and $\kappa$ to $1$, we get $\ddot{x}=-x$.
+        \item This is a simple differential equation with the algebraic solution of $x(t)=c_1\cos(t)+c_2\sin(t)$.
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{What is a Differential Equation?}
+    The graph of our spring system $x(t)=\cos(t)+\sin(t)$, where $c_1=c_2=1$.\\
+    \begin{center}
+        \includegraphics[width=9cm]{undamped.png}
+    \end{center}
 \end{frame}
 
 
@@ -160,7 +172,14 @@
 
 \begin{frame}
     \frametitle{The Classical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
-
+    \begin{itemize}
+        \item To find the classical symmetries for a differential equation, you have to solve for Lie's Invariance Condition.
+        \item Lie's Invariance Condition changes based on the type and order of differential equation.
+        \item For second order partial differential equations like we had, Lie's Invariance condition is as follows
+    \end{itemize}
+    \begin{Large}
+        $$\Gamma^{2}(\Delta)$$
+    \end{Large}
 \end{frame}
 
 
