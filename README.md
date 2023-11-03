@@ -2,10 +2,10 @@
 Repo for the research poster of our Symmetry Analysis of the Born-Infeld and Gibbons-Tsarev equations
 
 Presentation Sections to Finish
-- [ ] Introduction and Background Knowledge (D)
+- [x] Introduction and Background Knowledge (D)
   - [x] Front matter stuff
   - [x] What is a symmetry?
-  - [ ] What is a differential equation?
+  - [x] What is a differential equation?
 - [ ] Historical Background and Equation Application Domains (W)
 - [ ] Classical Symmetries (D)
   - [ ] Intuitive explanation / discussion of Lie's invariance condition
