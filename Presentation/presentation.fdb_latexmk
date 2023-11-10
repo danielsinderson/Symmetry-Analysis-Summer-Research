@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1699038039 "/home/drs/Documents/School/2023 Summer Research/Symmetry-Analysis-Summer-Research/Presentation/presentation.tex" "presentation.pdf" "presentation" 1699038041
+["pdflatex"] 1699649113 "/home/drs/Documents/School/2023 Summer Research/Symmetry-Analysis-Summer-Research/Presentation/presentation.tex" "presentation.pdf" "presentation" 1699649115
   "/etc/texmf/web2c/texmf.cnf" 1690138198 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/drs/Documents/School/2023 Summer Research/Symmetry-Analysis-Summer-Research/Presentation/presentation.tex" 1699038038 6474 03351b0484f9b46799a32e5355199e7f ""
+  "/home/drs/Documents/School/2023 Summer Research/Symmetry-Analysis-Summer-Research/Presentation/presentation.tex" 1699649113 9350 4cfda30a1c5ea98a33f815873345d86f ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -197,11 +197,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1690138246 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1690138325 2800704 dd5145fa7a99607d1e5660dcfc9667f4 ""
-  "presentation.aux" 1699038040 6206 4005502986421a060c36399ab1b40bad "pdflatex"
-  "presentation.nav" 1699038040 3433 dc2cfca863bb541a47536272813485a7 "pdflatex"
-  "presentation.out" 1699038040 1670 69b171fee66796ec6a45d3706da64423 "pdflatex"
-  "presentation.tex" 1699038038 6474 03351b0484f9b46799a32e5355199e7f ""
-  "presentation.toc" 1699038040 682 a06cc2d08b66cc2073f1983c026ffb66 "pdflatex"
+  "presentation.aux" 1699649115 6901 cec56d949f9ca27229147c71350cedb6 "pdflatex"
+  "presentation.nav" 1699649115 3948 f6f0f36ce9e1201b5dda418a3da05ed9 "pdflatex"
+  "presentation.out" 1699649115 1670 69b171fee66796ec6a45d3706da64423 "pdflatex"
+  "presentation.tex" 1699649113 9350 4cfda30a1c5ea98a33f815873345d86f ""
+  "presentation.toc" 1699649115 682 a06cc2d08b66cc2073f1983c026ffb66 "pdflatex"
   "undamped.png" 1698284287 48206 6cca90885348668f4dfd65751aa17c00 ""
   "y=x+1.png" 1698245233 33746 f885d6aabbb98b3578ee0553cc3a3f56 ""
   "y=x.png" 1698245179 18586 daa6a422776bd036df3c3bb7c389a558 ""

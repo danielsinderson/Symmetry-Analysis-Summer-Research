@@ -119,7 +119,7 @@
     \vspace*{0.25in}
     \begin{itemize}
         \item Symmetries help us understand and solve equations that we wouldn't normally be able to.\pause
-        \item Symmetries encode physically meaningful aspects of equations, like conservation laws in physics.\pause
+        \item Symmetries encode physically meaningful aspects of equations, like conservation laws in physics.
     \end{itemize}
 \end{frame}
 
@@ -130,7 +130,7 @@
     \begin{definition}
     \begin{itemize}
         \item A differential equation is an equation that contains both an unknown function and information about how that function relates to its rates of change. \pause
-        \item Differential equations show up everywhere we model something using information about how that thing changes over time. This includes everything from population dynamics to the motion of the planets. \pause
+        \item Differential equations show up everywhere we model something using information about how that thing changes. This includes everything from population dynamics to planetary orbits. \pause
         \item Differential equations are different from algebraic equations, and can't be solved in the same ways.
     \end{itemize}
 \end{definition}
@@ -169,19 +169,78 @@
 \end{frame}
 
 
+\begin{frame}
+    \frametitle{The Classical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
+    \begin{itemize}
+        \item The goal of our project was to find symmetry transformations for these two PDEs, both classical and nonclassical, and compare them.
+        \item It turns out that there's a standard method for calculating both kinds of symmetry transformations for differential equations.
+    \end{itemize}
+    \vspace*{0.125in}
+    \begin{large}
+        \begin{align*}
+            \text{Input Equation} &\rightarrow \text{Calculate Lie's invariance condition} \\
+                           &\rightarrow \text{Solve linear system of PDEs} \\
+                           &\rightarrow \text{Symmetries!}
+        \end{align*}
+    \end{large}
+
+\end{frame}
+
 
 \begin{frame}
     \frametitle{The Classical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
     \begin{itemize}
-        \item To find the classical symmetries for a differential equation, you have to solve for Lie's Invariance Condition.
-        \item Lie's Invariance Condition changes based on the type and order of differential equation.
-        \item For second order partial differential equations like we had, Lie's Invariance condition is as follows
+        \item To guarantee that a transformation is a symmetry, we need to ensure that all aspects of the equation remain the same under the transformation. \pause
+        \item For a differential equation, this means that the function and any derivatives of that function that are present in the equation must not change under the transformation. \pause
+        \item Lie's invariance condition gives us a way to generate transformations that meet all these requirements. \pause
+        \item If you can solve Lie's invariance condition for your equation, you can find its symmetries.
     \end{itemize}
-    \begin{Large}
-        $$\Gamma^{2}(\Delta)$$
-    \end{Large}
 \end{frame}
 
+
+\begin{frame}
+    \frametitle{The Classical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
+        The general form of Lie's invariance condition is the falsely unassuming
+        \vspace*{0.25in}
+        \begin{Large}$$\Gamma^{(n)}\Delta |_{\Delta=0} = 0$$\end{Large}\\
+        \vspace*{0.25in}
+        Here $\Gamma$ is the infinitesimal operator, $n$ is the order of the equation, and $\Delta$ is the equation itself set to equal 0 (this is standard form).
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{The Classical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
+        For our equations, which are both second order PDEs in two independent variables, Lie's invariance condition looks like the following:
+        \vspace*{0.25in}
+        \begin{Large}$$\dots$$\end{Large}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{The Classical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
+        \begin{itemize}
+            \item The result of putting our PDEs through Lie's invariance condition was a system of $\dots$ linear PDEs for the Born-Infeld equation and $\dots$ for the reduced Gibbons-Tsarev equation. \pause
+            \item Though difficult, these systems were easier to solve than the original single equations because of their linearity. This resulted in the following symmetries.
+        \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{The Classical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
+        \begin{large}Classical Symmetries of the Born-Infeld Equation\end{large}
+        \begin{itemize}
+            \item .
+            \item .
+            \item .
+        \end{itemize}
+        \vspace*{0.25in}
+        \begin{large}Classical Symmetries of the reduced Gibbons-Tsarev Equation\end{large}
+        \begin{itemize}
+            \item .
+            \item .
+            \item .
+        \end{itemize}
+\end{frame}
 
 
 \begin{frame}
