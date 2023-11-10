@@ -210,10 +210,23 @@
 
 \begin{frame}
     \frametitle{The Classical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
-        For our equations, which are both second order PDEs in two independent variables, Lie's invariance condition looks like the following:
-        \vspace*{0.25in}
-        \begin{Large}$$\dots$$\end{Large}
-\end{frame}
+        For our equations, the infinitesimal operator $\Gamma$ looks like the following:
+        \vspace*{0.125in}
+        \begin{small}
+            $$T\frac{\partial}{\partial t} + X\frac{\partial}{\partial x} + U\frac{\partial}{\partial u} + U_{[t]}\frac{\partial}{\partial u_t} + U_{[x]}\frac{\partial}{\partial u_x} + U_{[tt]}\frac{\partial}{\partial u_{tt}} + U_{[tx]}\frac{\partial}{\partial u_{tx}} + U_{[xx]}\frac{\partial}{\partial u_{xx}}$$
+            \begin{align*}
+                U_{[t]} &= D_t(U)-u_tD_t(T)-u_xD_t(X) \\
+                U_{[x]} &= D_x(U)-u_tD_x(T)-u_xD_x(X) \\
+                U_{[tt]} &= D_t(U_{[t]})-u_{tt}D_t(T)-u_{tx}D_t(X) \\
+                U_{[tx]} &= D_t(U_{[x]})-u_{tx}D_t(T)-u_{xx}D_t(X) \\
+                U_{[xx]} &= D_t(U_{[x]})-u_{tx}D_x(T)-u_{xx}D_x(X)
+            \end{align*}
+            \begin{align*}
+                D_t &= \frac{\partial}{\partial t} + u_t\frac{\partial}{\partial u} + u_{tt}\frac{\partial}{\partial u_t} + u_{tx}\frac{\partial}{\partial u_x} \\
+                D_x &= \frac{\partial}{\partial x} + u_x\frac{\partial}{\partial u} + u_{tx}\frac{\partial}{\partial u_t} + u_{xx}\frac{\partial}{\partial u_x}
+            \end{align*}
+        \end{small}
+    \end{frame}
 
 
 \begin{frame}
