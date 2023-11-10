@@ -119,7 +119,7 @@
     \vspace*{0.25in}
     \begin{itemize}
         \item Symmetries help us understand and solve equations that we wouldn't normally be able to.\pause
-        \item Symmetries encode physically meaningful aspects of equations, like conservation laws in physics.
+        \item Symmetries encode physically meaningful aspects of equations, like conservation laws.
     \end{itemize}
 \end{frame}
 
@@ -136,11 +136,19 @@
 \end{definition}
 \end{frame}
 
+ 
+
+\begin{frame}
+    \frametitle{What is a Differential Equation?}
+    As an example, let's look a frictionless spring-mass system.\\
+    \vspace*{0.125in}
+    \includegraphics[height=2in, width=4in]{spring-mass diagram.png}
+\end{frame}
 
 
 \begin{frame}
     \frametitle{What is a Differential Equation?}
-    As an example, we'll use the equation for an undamped spring.\\
+    This system can be modeled by the following differential equation.\\
     \vspace*{0.125in}
     \begin{Large}
         $$m\ddot{x}=-\kappa{x}$$
@@ -232,7 +240,7 @@
 \begin{frame}
     \frametitle{The Classical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
         \begin{itemize}
-            \item The result of putting our PDEs through Lie's invariance condition was a system of $\dots$ linear PDEs for the Born-Infeld equation and $\dots$ for the reduced Gibbons-Tsarev equation. \pause
+            \item The result of putting our PDEs through Lie's invariance condition was a system of $24$ linear PDEs for the Born-Infeld equation and $21$ for the reduced Gibbons-Tsarev equation. \pause
             \item Though difficult, these systems were easier to solve than the original single equations because of their linearity. This resulted in the following symmetries.
         \end{itemize}
 \end{frame}
@@ -242,16 +250,16 @@
     \frametitle{The Classical Symmetries of the Born-Infeld and the reduced Gibbons-Tsarev Equations}
         \begin{large}Classical Symmetries of the Born-Infeld Equation\end{large}
         \begin{itemize}
-            \item .
-            \item .
-            \item .
+            \item $X(x,y,u) = c_1x + c_2u + c_3y + c_4$
+            \item $Y(x,y,u) = c_1y + c_3x + c_5u + c_6$
+            \item $U(x,y,u) = c_1u - c_2x + c_5y + c_7$
         \end{itemize}
         \vspace*{0.25in}
         \begin{large}Classical Symmetries of the reduced Gibbons-Tsarev Equation\end{large}
         \begin{itemize}
-            \item .
-            \item .
-            \item .
+            \item $X(x,y,u) = -2c_5y + (-c_2 + 2c_4)x + c_7$
+            \item $Y(x,y,u) = -\frac{c_1x}{2} + c_4y + c_5u + c_6$
+            \item $U(x,y,u) = c_1y + c_2u + c_3$	
         \end{itemize}
 \end{frame}
 

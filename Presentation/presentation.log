@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  10 NOV 2023 13:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.23)  10 NOV 2023 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -721,19 +721,25 @@ Package pdftex.def Info: y=x+1.png  used on input line 110.
 
 ] [14
 
-] [15
+]
+<spring-mass diagram.png, id=440, 1003.75pt x 602.25pt>
+File: spring-mass diagram.png Graphic file (type png)
+<use spring-mass diagram.png>
+Package pdftex.def Info: spring-mass diagram.png  used on input line 146.
+(pdftex.def)             Requested size: 289.07365pt x 144.54294pt.
+ [15
+
+ <./spring-mass diagram.png>] [16
 
 ]
-<undamped.png, id=469, 803.0pt x 602.25pt>
+<undamped.png, id=497, 803.0pt x 602.25pt>
 File: undamped.png Graphic file (type png)
 <use undamped.png>
-Package pdftex.def Info: undamped.png  used on input line 163.
+Package pdftex.def Info: undamped.png  used on input line 171.
 (pdftex.def)             Requested size: 256.0748pt x 192.06229pt.
- [16
+ [17
 
- <./undamped.png>] [17
-
-] [18
+ <./undamped.png>] [18
 
 ] [19
 
@@ -759,6 +765,8 @@ Package pdftex.def Info: undamped.png  used on input line 163.
 
 ] [30
 
+] [31
+
 ]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
@@ -774,18 +782,18 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 69B171FEE66796EC6A45D3706DA64423;1670.
  ) 
 Here is how much of TeX's memory you used:
- 21704 strings out of 478287
- 420398 string characters out of 5849289
+ 21715 strings out of 478287
+ 420627 string characters out of 5849289
  680345 words of memory out of 5000000
- 39382 multiletter control sequences out of 15000+600000
+ 39390 multiletter control sequences out of 15000+600000
  483716 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,122p,489b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (30 pages, 271156 bytes).
+Output written on presentation.pdf (31 pages, 300303 bytes).
 PDF statistics:
- 916 PDF objects out of 1000 (max. 8388607)
- 844 compressed objects within 9 object streams
- 73 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 945 PDF objects out of 1000 (max. 8388607)
+ 870 compressed objects within 9 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

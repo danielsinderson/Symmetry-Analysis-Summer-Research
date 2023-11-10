@@ -1204,6 +1204,11 @@ INPUT ./y=x+1.png
 INPUT y=x+1.png
 INPUT ./y=x+1.png
 INPUT ./y=x+1.png
+INPUT ./spring-mass diagram.png
+INPUT ./spring-mass diagram.png
+INPUT spring-mass diagram.png
+INPUT ./spring-mass diagram.png
+INPUT ./spring-mass diagram.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
