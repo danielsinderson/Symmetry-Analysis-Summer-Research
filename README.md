@@ -6,14 +6,14 @@ Presentation Sections to Finish
   - [x] Front matter stuff
   - [x] What is a symmetry?
   - [x] What is a differential equation?
-- [ ] Historical Background and Equation Application Domains (W)
-- [ ] Classical Symmetries (D)
-  - [ ] Intuitive explanation / discussion of Lie's invariance condition
-  - [ ] Show Lie's Invariance condition for spring-mass example from before
-  - [ ] Show Lie's Invariance condition for our equations
-  - [ ] Show and explain our symmetry results
-- [ ] Nonclassical Symmetries (W)
-- [ ] Future Work and Conclusion(W)
+- [x] Historical Background and Equation Application Domains (W)
+- [x] Classical Symmetries (D)
+  - [x] Intuitive explanation / discussion of Lie's invariance condition
+  - [x] Show Lie's Invariance condition for spring-mass example from before
+  - [x] Show Lie's Invariance condition for our equations
+  - [x] Show and explain our symmetry results
+- [x] Nonclassical Symmetries (W)
+- [x] Future Work and Conclusion(W)
 
 
 
